@@ -6,9 +6,64 @@
 
 }
 #cont2{
-    background-image: url(../images/s_image.jpg);
+    background-image: url("../images/s_image.jpg");
     background-size: cover;
     background-position: top center;
     height: 50vh;
 }
-
+#col1{
+    background-image: url("../images/work4.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30vh;
+}
+#col2{
+    background-image: url("../images/work3.jpg");
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 30vh;
+}
+#col3{
+    background-image: url("../images/work2.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30vh;
+}
+#col4{
+    background-image: url("../images/work1.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30vh;
+}
+#col5{
+    background-image: url("../images/work5.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30vh;
+}
+#col6{
+    background-image: url("../images/work6.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30vh;
+}
+#col7{
+    background-image: url("../images/work7.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30vh;
+}
+#col8{
+    background-image: url("../images/work8.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 30vh;
+}
