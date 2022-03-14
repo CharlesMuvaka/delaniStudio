@@ -1,3 +1,39 @@
+let myForm = document.querySelector("#myForm");
+myForm.addEventListener("submit", comments1);
+
+function comments1(event){
+    event.preventDefault();
+
+    let userName = document.querySelector("#person1");
+    let userEmail = document.querySelector("#person2");
+    let userComment = document.querySelector("#person3");
+    let feedBack = document.querySelector("#frow2");
+    let feed = document.querySelector("#frow1");
+
+    let name = userName.value;
+    let email = userEmail.value;
+    let comment = userComment.value;
+
+    validate(name, email);
+
+      
+}
+function validate(name, email){
+    if(name == ""){
+       return alert("Please enter your name");
+    }
+    else if(email == ""){
+        return alert("Eneter your email address");
+     }
+     else{
+        alert("thank you"  + " " + name + " " + ",for reaching out to us, your details have submitted successfully.");             
+    }
+    return myForm.reset(); 
+}
+
+
+
+
 $(document).ready(function(){
 
     $("#pen1").click(function(){
@@ -53,41 +89,4 @@ $(document).ready(function(){
         $("#append8").toggle();
         
     });
-    
-
 });
-
-let myForm = document.querySelector("#myForm");
-myForm.addEventListener("submit", comments1);
-
-function comments1(event){
-    event.preventDefault();
-
-    let userName = document.querySelector("#person1");
-    let userEmail = document.querySelector("#person2");
-    let userComment = document.querySelector("#person3");
-
-    let name = userName.value;
-    let email = userEmail.value;
-    let comment = userComment.value;
-
-    validate(name, email);
-    
-    
-}
-
-function validate(name, email){
-    if(name == ""){
-       return alert("name required");
-    }
-    else if(email == ""){
-        return alert("email required");
-     }
-    else{
-        alert("Details submitted successfully");
-     }
-
-     return myForm.reset();
-
-    
-}

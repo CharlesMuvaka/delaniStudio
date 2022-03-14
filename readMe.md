@@ -45,7 +45,7 @@
 
    [Go Back to the top](#Delani-Studio)
  ## DevelopMent
- <p> Need to contribute?? Follow the following steps.</p>
+ <p> If willing to contribute, Follow the following steps.</p>
 
  * Fork the repo
  * Create a new branch 
