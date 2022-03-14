@@ -8,7 +8,7 @@
  + [Reference](#reference)
  + [Authors Info](#author-Info)
  ## Description
- <p>Delani studio is a webssite that describes all the programing we offer. Apart from show casing our skills, the website also clearly describes our terms and conditions before signing any contracts and also our contact.</p>
+ <p>Delani studio is a webssite that describes all the programming services we offer. Apart from show casing our skills, the website also clearly describes our terms and conditions before signing any contracts and also our provides our contacts to the users.</p>
  
  ## Installation
  ### Requirements
