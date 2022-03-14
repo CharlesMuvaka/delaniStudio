@@ -58,35 +58,59 @@ $(document).ready(function(){
     });
 
     $("#col1").mouseover(function(){
-        $("#append1").toggle();
+        $("#append1").show();
         
+    }).mouseout(function(){
+        $("#append1").hide();
+
     });
     $("#col2").mouseover(function(){
-        $("#append2").toggle();
+        $("#append2").show();
         
+    }).mouseout(function(){
+        $("#append2").hide();
+
     });
     $("#col3").mouseover(function(){
-        $("#append3").toggle();
+        $("#append3").show();
         
+    }).mouseout(function(){
+        $("#append3").hide();
+
     });
     $("#col4").mouseover(function(){
-        $("#append4").toggle();
+        $("#append4").show();
         
+    }).mouseout(function(){
+        $("#append4").hide();
+
     });
     $("#col5").mouseover(function(){
-        $("#append5").toggle();
+        $("#append5").show();
         
+    }).mouseout(function(){
+        $("#append5").hide();
+
     });
     $("#col6").mouseover(function(){
-        $("#append6").toggle();
+        $("#append6").show();
         
+    }).mouseout(function(){
+        $("#append6").hide();
+
     });
     $("#col7").mouseover(function(){
-        $("#append7").toggle();
+        $("#append7").show();
         
+    }).mouseout(function(){
+        $("#append7").hide();
+
     });
     $("#col8").mouseover(function(){
-        $("#append8").toggle();
+        $("#append8").show();
         
+    }).mouseout(function(){
+        $("#append8").hide();
+
     });
 });
