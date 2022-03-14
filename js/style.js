@@ -1,8 +1,8 @@
 let myForm = document.querySelector("#myForm");
 myForm.addEventListener("submit", comments1);
 
-function comments1(event){
-    event.preventDefault();
+function comments1(){
+    // event.preventDefault();
 
     let userName = document.querySelector("#person1");
     let userEmail = document.querySelector("#person2");
