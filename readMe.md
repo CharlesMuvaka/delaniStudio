@@ -1,4 +1,4 @@
-# DelaniStudio
+# Delani-Studio
  ##### By Charles Muvaka
  ### It is a Studio website - Delani Studio.
  ## Table of Content
